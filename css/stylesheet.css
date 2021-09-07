@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*
+*   List Styles
+********************************/
+
+.list {
+    margin: 2rem 0;
+    padding: 1.5rem 10%;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(245,245,245,0.9);
+    z-index: 9;
+}
+
+.list-item {
+    color: inherit;
+}
+
+.list-item:nth-child(1n+2) {
+    margin-left: 2rem;
+}
+
+
+/*
+*   Navigation Styles
+********************************/
+
+.navbar-brand,
+.search-bar {
+    flex: 1;
+}
+
+.navbar-brand a img {
+    height: 20px;
+}
+
+.navbar {
+    padding: 1.5rem 10%;
+}
+
+.navbar-menu {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-start {
+    margin-right: 0;
+}
+
+.navbar-start a {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.navbar-start a:hover {
+    text-decoration: underline;
+    color: inherit;
+    background: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+/*
+*   Hero Styles
+********************************/
+
+.hero {
+    margin-top: 3rem;
+}
+
+.hero-body {
+    padding: 0 10%;
+}
+
+.hero .card {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hero .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .card-image {
+    flex: 1;
+}
+
+/*
+*   Card Styles
+********************************/
+
+.card-time {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0!important;
+    padding: 0.5rem 0;
+}
+
+.card-title a {
+    color: inherit;
+}
+
+.card-category a {
+    color: white;
+    padding: 0.35rem;
+    background-color: #335bbc;
+    border-radius: .25rem;
+}
+
+.card-category a:hover {
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+/*
+*   Main Styles
+********************************/
+
+.main {
+    flex: 1;
+}
+
+.container {
+    width: 100%!important; 
+    max-width: 100%!important; 
+    padding: 0 10%;
+}
+
+.column {
+    width: calc((100% / 3) - 0.33333rem)!important;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.column:nth-child(3n+1) {
+    margin-left: 0;
+}
+/*
+*   Footer Styles
+********************************/
+
+.footer {
+    margin-top: 3rem;
+    padding: 3rem 1.5rem 3rem;
+}
+
