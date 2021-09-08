@@ -1,6 +1,6 @@
 :root {
     --card-red: #e5383b;
-    --card-blue: #5998C5;
+    --card-blue: #4392F1;
     --card-green: #67b99a;
 }
 
@@ -143,7 +143,7 @@ body {
 }
 
 .search-bar span {
-    background-color: black;
+    background-color: var(--card-blue);
     padding: 0.75rem;
     color: white;
     border-radius: 25px;;
