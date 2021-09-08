@@ -71,7 +71,7 @@
 
         </nav>
 
-        <aside class="category-list">
+        <aside class="category-list" data-simplebar>
 
             <a class="category-list-item">Aftensmad</a>
             <a class="category-list-item">Bagværk</a>

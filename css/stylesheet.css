@@ -88,6 +88,10 @@ body {
     font-weight: 600;
 }
 
+.simplebar-content {
+    display: flex;
+}
+
 /*
 *   Navigation Styles
 ********************************/
@@ -353,5 +357,12 @@ body {
     .column {
         width: 100%!important;
     }
+    
+    .simplebar-content {
+        display: flex;
+    }
 
+    .category-list-item:nth-child(1n+2) {
+        margin-left: 2rem;
+    }
 }
