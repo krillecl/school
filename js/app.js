@@ -23,3 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+
+const toggleClass = (el, className) => el.classList.toggle(className);
+
+document.querySelector(".navbar-burger").onclick = function() {
+    toggleClass(document.querySelector(".navbar-menu"), 'active');
+}

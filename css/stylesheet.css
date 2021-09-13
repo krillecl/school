@@ -366,6 +366,18 @@ body {
         height: 2px;
     }
 
+    .navbar-item:nth-child(1n+2) {
+        margin-top: 1rem;
+    }
+
+    .navbar-start {
+        padding: 2rem;
+    }
+
+    .navbar-start a {
+       font-size: 1.15rem;
+    }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -385,4 +397,16 @@ body {
     .navbar-brand a img {
         height: 15px;
     }
+
+    .active {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+    }
+
+    .navbar-menu {
+        border: 1px solid #bdbdbd;
+    }
+
 }

@@ -67,6 +67,15 @@
           
             </div>
 
+            <div class="search-form">
+                <form action="{{ route('search') }}" method="GET">
+
+                    <input placeholder="Søg efter ingredienser, opskrifter m.m." type="text" name="search" required/>
+                    <button type="submit"><i class="fas fa-search"></i></button>
+
+                </form>
+            </div>
+
             <div class="search-bar">
 
                 <span class="material-icons">
