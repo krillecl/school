@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Simplebar -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +29,14 @@
     <header class="header">
 
         <div class="topbar width">
+
+            <div class="nav-toggle">
+
+                <span class="material-icons">
+                    menu
+                </span>
+                
+            </div>
 
             <div class="brand">
 
@@ -53,7 +65,7 @@
         </div> <!-- /.topbar -->
 
         <div class="sub-bar">
-            <div class="category_menu">
+            <div class="category_menu" data-simplebar>
                 <a class="category_menu__link" href="#">Aftensmad</a>
                 <a class="category_menu__link" href="#">Bagværk</a>
                 <a class="category_menu__link" href="#">Frokost</a>
@@ -69,7 +81,7 @@
 
         <section class="articles section">
 
-            <div class="section__headline">De seneste opskrifter</div>
+            <div class="section__headline font-raleway">Seneste opskrifter</div>
 
             <div class="grid">
 
@@ -91,13 +103,14 @@
 
                             <div class="content">
 
-                                <p class="card__category">
-                                    <a href="#">Morgenmad</a>
-                                </p>
-
                                 <p class="card__title">
                                     <a href="#">Godmorgen Smoothie</a>
                                 </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
 
                             </div> <!-- /.content -->
 
@@ -107,6 +120,114 @@
 
                 </article>
 
+                <article class="article">
+
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <figure class="image">
+
+                                <a href="#"><img src="images/broed.jpeg" alt="Placeholder image"></a>
+                                
+                            </figure>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="content">
+
+                                <p class="card__title">
+                                    <a href="#">Godmorgen Smoothie</a>
+                                </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
+
+                            </div> <!-- /.content -->
+
+                        </div> <!-- /.card-content -->
+
+                    </div> <!-- /.card -->
+
+                </article>
+
+                <article class="article">
+
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <figure class="image">
+
+                                <a href="#"><img src="images/pasta.jpeg" alt="Placeholder image"></a>
+                                
+                            </figure>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="content">
+
+                                <p class="card__title">
+                                    <a href="#">Godmorgen Smoothie</a>
+                                </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
+
+                            </div> <!-- /.content -->
+
+                        </div> <!-- /.card-content -->
+
+                    </div> <!-- /.card -->
+
+                </article>
+
+                
+                <article class="article">
+
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <figure class="image">
+
+                                <a href="#"><img src="images/ragu.jpeg" alt="Placeholder image"></a>
+                                
+                            </figure>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="content">
+
+                                <p class="card__title">
+                                    <a href="#">Godmorgen Smoothie</a>
+                                </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
+
+                            </div> <!-- /.content -->
+
+                        </div> <!-- /.card-content -->
+
+                    </div> <!-- /.card -->
+
+                </article>
+
+
+                
                 <article class="article">
 
                     <div class="card">
@@ -125,13 +246,14 @@
 
                             <div class="content">
 
-                                <p class="card__category">
-                                    <a href="#">Morgenmad</a>
-                                </p>
-
                                 <p class="card__title">
                                     <a href="#">Godmorgen Smoothie</a>
                                 </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
 
                             </div> <!-- /.content -->
 
@@ -141,6 +263,8 @@
 
                 </article>
 
+
+                
                 <article class="article">
 
                     <div class="card">
@@ -149,7 +273,7 @@
 
                             <figure class="image">
 
-                                <a href="#"><img src="images/smoothie.jpeg" alt="Placeholder image"></a>
+                                <a href="#"><img src="images/broed.jpeg" alt="Placeholder image"></a>
                                 
                             </figure>
 
@@ -159,13 +283,14 @@
 
                             <div class="content">
 
-                                <p class="card__category">
-                                    <a href="#">Morgenmad</a>
-                                </p>
-
                                 <p class="card__title">
                                     <a href="#">Godmorgen Smoothie</a>
                                 </p>
+
+                                <div class="card__trivia">
+                                    <p class="card__category"><a href="#">Morgenmad</a></p> |
+                                    <p class="card__time">14. September, 2021</p>
+                                </div> <!-- /.trivia -->
 
                             </div> <!-- /.content -->
 
@@ -174,6 +299,7 @@
                     </div> <!-- /.card -->
 
                 </article>
+
 
             </div>
 
