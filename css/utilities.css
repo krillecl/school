@@ -5,6 +5,7 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 /*
@@ -16,11 +17,13 @@
 }
 
 .card {
-    
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: white;
 }
 
 .card-content {
-    
+    padding: 1rem 2rem;
 }
 
 .card-image {
@@ -35,7 +38,6 @@
 .card__title {
     font-size: 1.2rem;
     font-weight: 600;
-    padding-top: 1rem;
     padding-bottom: .35rem;
 }
 
@@ -44,14 +46,17 @@
 }
 
 .card__category a {
-    color: var(--dark-green);
+    font-weight: 600;
     padding-right: 0.25rem;
+}
+
+.card__category a:hover {
+    color: black;
 }
 
 .card__time {
     display: flex;
     align-items: center;
-    color: rgba(0, 0, 0, 0.65);
     margin-left: 0.25rem;
 }
 
@@ -59,6 +64,7 @@
 .card__time {
     font-size: 0.85rem;
     font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
 }
 
 .nav-toggle {
