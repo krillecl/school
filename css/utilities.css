@@ -5,25 +5,19 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 /*
 *   Card Styles
 ***********************/
 
-.article:nth-child(1n+4) {
-    margin-top: 3rem;
-}
-
 .card {
-    border-radius: 9px;
-    overflow: hidden;
-    background-color: white;
 }
 
 .card-content {
-    padding: 1rem 2rem;
+    background-color: white;
+    padding: 1.5rem;
 }
 
 .card-image {
@@ -81,6 +75,11 @@
     .article:nth-child(3n+1) {
         margin-left: 0;
     }
+
+    .article:nth-child(1n+4) {
+        margin-top: 1.5rem;
+    }
+
 
 }
 

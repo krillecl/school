@@ -64,20 +64,64 @@
         
         </div> <!-- /.topbar -->
 
-        <div class="sub-bar">
-            <div class="category_menu" data-simplebar>
-                <a class="category_menu__link" href="#">Aftensmad</a>
-                <a class="category_menu__link" href="#">Bagværk</a>
-                <a class="category_menu__link" href="#">Frokost</a>
-                <a class="category_menu__link" href="#">Morgenmad</a>
-                <a class="category_menu__link" href="#">TIlbehør</a>
-            </div>
-
-        </div>
-
     </header>
 
     <main class="main width">
+
+        <section class="section featured">
+
+        Featured
+
+        </section>
+
+        
+        <section class="section">
+
+            <div class="section-headline">
+                Kategori
+            </div>
+
+            <div class="category_menu" data-simplebar>
+                
+                <a class="category_menu__link" href="#">
+                    <span class="material-icons">
+                        food_bank
+                    </span>
+                    Aftensmad
+                </a>
+
+                <a class="category_menu__link" href="#">
+                    <span class="material-icons">
+                        bakery_dining
+                    </span>
+                    Bagværk
+                </a>
+
+                <a class="category_menu__link" href="#">
+                    <span class="material-icons">
+                        lunch_dining
+                    </span>
+                    Frokost
+                </a>
+
+                <a class="category_menu__link" href="#">
+                    <span class="material-icons">
+                        breakfast_dining
+                    </span>
+                    Morgenmad
+                </a>
+
+                <a class="category_menu__link" href="#">
+                    <span class="material-icons">
+                        add
+                    </span>
+                    TIlbehør
+                </a>
+            </div>
+
+        </section>
+
+
 
         <section class="articles section">
 
