@@ -28,7 +28,7 @@
 
     <header class="header">
 
-        <div class="topbar width">
+        <div class="topbar">
 
             <div class="nav-toggle">
 
@@ -52,78 +52,107 @@
                 <a class="main_menu__link" href="#">Opskrifter</a>
                 <a class="main_menu__link" href="#">Madplaner</a>
                 <a class="main_menu__link" href="#">Kontakt</a>
+
+                <div class="search-form">
+
+                    <span class="material-icons">
+                        search
+                    </span>
+
+                    Søg
+
+                </div>
+
             </nav>
-
-            <div class="search-form">
-
-                <span class="material-icons">
-                    search
-                </span>
-
-            </div>
         
         </div> <!-- /.topbar -->
 
+        <div class="hero">
+
+            <div class="brand-text">
+
+                Hej! Vi er Madframor.
+                <br/>
+                Vi er en blog, hvor mor
+                <br />
+                deler ud af sine opskrifter.
+
+                <div class="arrow">
+                    <span class="material-icons bounce">
+                        arrow_downward
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="/images/hero-chef.svg">
+            </div>
+
+        </div> <!-- /.hero -->
+
     </header>
 
-    <main class="main width">
+    <main class="main width">    
 
-        <section class="section featured">
+        <section class="featured">
 
-        Featured
-
-        </section>
-
-        
-        <section class="section">
-
-            <div class="section-headline">
-                Kategori
+            <div class="section__headline">
+                <h2 class="heading">Anbefalet</h2>
+                <h3 class="sub-heading">Vores udvalgte til dig</h3>
             </div>
 
-            <div class="category_menu" data-simplebar>
+
+            <article class="article">
+
+                <div class="card">
+
+                    <div class="card-image">
+
+                        <figure class="image">
+
+                            <a href="#"><img src="images/smoothie.jpeg" alt="Placeholder image"></a>
+                            
+                        </figure>
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <div class="content">
+
+                            <p class="card__title">
+                                <a href="#">Godmorgen Smoothie</a>
+                            </p>
+
+                            <p class="card__description">Dagens smoothie med ingefær, banen, avokado m.m.</p>
                 
-                <a class="category_menu__link" href="#">
-                    <span class="material-icons">
-                        food_bank
-                    </span>
-                    Aftensmad
-                </a>
 
-                <a class="category_menu__link" href="#">
-                    <span class="material-icons">
-                        bakery_dining
-                    </span>
-                    Bagværk
-                </a>
+                            <div class="card__trivia">
+                                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                                <p class="card__time">14. September, 2021</p>
+                            </div> <!-- /.trivia -->
 
-                <a class="category_menu__link" href="#">
-                    <span class="material-icons">
-                        lunch_dining
-                    </span>
-                    Frokost
-                </a>
+                            <div class="readmore"><a href="#">Læs opskriften</a></div>
 
-                <a class="category_menu__link" href="#">
-                    <span class="material-icons">
-                        breakfast_dining
-                    </span>
-                    Morgenmad
-                </a>
+                        </div> <!-- /.content -->
 
-                <a class="category_menu__link" href="#">
-                    <span class="material-icons">
-                        add
-                    </span>
-                    Tilbehør
-                </a>
-            </div>
+                    </div> <!-- /.card-content -->
+
+                </div> <!-- /.card -->
+
+            </article>
+
 
         </section>
+
 
         <section class="articles section trending">
 
-            <div class="section__headline font-raleway">Dette trender</div>
+            <div class="section__headline">
+                <h2 class="heading">De seneste</h2>
+                <h3 class="sub-heading">Bliv inspireret af vores seneste opskrifter</h3>
+            </div>
 
             <div class="grid">
 
@@ -205,7 +234,7 @@
 
                             <figure class="image">
 
-                                <a href="#"><img src="images/pasta.jpeg" alt="Placeholder image"></a>
+                                <a href="#"><img src="images/pasta.jpg" alt="Placeholder image"></a>
                                 
                             </figure>
 
@@ -232,125 +261,225 @@
 
                 </article>
 
+                <article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/smoothie.jpeg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Godmorgen Smoothie</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+<article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/broed.jpeg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Gammeldags franskbrød</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+<article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/pasta.jpg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Godmorgen Smoothie</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+
+<article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/smoothie.jpeg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Godmorgen Smoothie</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+<article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/broed.jpeg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Gammeldags franskbrød</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+<article class="article">
+
+<div class="card">
+
+    <div class="card-image">
+
+        <figure class="image">
+
+            <a href="#"><img src="images/pasta.jpg" alt="Placeholder image"></a>
+            
+        </figure>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="content">
+
+            <p class="card__title">
+                <a href="#">Godmorgen Smoothie</a>
+            </p>
+
+            <div class="card__trivia">
+                <p class="card__category"><a href="#">Morgenmad</a></p>|
+                <p class="card__time">14. September, 2021</p>
+            </div> <!-- /.trivia -->
+
+        </div> <!-- /.content -->
+
+    </div> <!-- /.card-content -->
+
+</div> <!-- /.card -->
+
+</article>
+
+
+            </div>
+
+            <div class="readmore">
+                <a href="#">Se flere opskrifter <span class="material-icons">arrow_right_alt</span></a>
             </div>
 
             </section>
-
-        <section class="articles section">
-
-            <div class="section__headline font-raleway">Seneste opskrifter</div>
-
-            <div class="grid">
-
-                <article class="article">
-
-                    <div class="card">
-
-                        <div class="card-image">
-
-                            <figure class="image">
-
-                                <a href="#"><img src="images/smoothie.jpeg" alt="Placeholder image"></a>
-                                
-                            </figure>
-
-                        </div>
-
-                        <div class="card-content">
-
-                            <div class="content">
-
-                                <div class="card__trivia">
-                                    <p class="card__category"><a href="#">Morgenmad</a></p>|
-                                    <p class="card__time">14. September, 2021</p>
-                                </div> <!-- /.trivia -->
-
-
-                                <p class="card__title">
-                                    <a href="#">Godmorgen Smoothie</a>
-                                </p>
-
-                            </div> <!-- /.content -->
-
-                        </div> <!-- /.card-content -->
-
-                    </div> <!-- /.card -->
-
-                </article>
-
-                <article class="article">
-
-                    <div class="card">
-
-                        <div class="card-image">
-
-                            <figure class="image">
-
-                                <a href="#"><img src="images/broed.jpeg" alt="Placeholder image"></a>
-                                
-                            </figure>
-
-                        </div>
-
-                        <div class="card-content">
-
-                            <div class="content">
-
-                                <div class="card__trivia">
-                                    <p class="card__category"><a href="#">Bagværk</a></p> |
-                                    <p class="card__time">14. September, 2021</p>
-                                </div> <!-- /.trivia -->
-
-                                <p class="card__title">
-                                    <a href="#">Gammeldags franskbrød</a>
-                                </p>
-
-                            </div> <!-- /.content -->
-
-                        </div> <!-- /.card-content -->
-
-                    </div> <!-- /.card -->
-
-                </article>
-
-                <article class="article">
-
-                    <div class="card">
-
-                        <div class="card-image">
-
-                            <figure class="image">
-
-                                <a href="#"><img src="images/pasta.jpeg" alt="Placeholder image"></a>
-                                
-                            </figure>
-
-                        </div>
-
-                        <div class="card-content">
-
-                            <div class="content">
-
-                                <div class="card__trivia">
-                                    <p class="card__category"><a href="#">Aftensmad</a></p> |
-                                    <p class="card__time">14. September, 2021</p>
-                                </div> <!-- /.trivia -->
-
-                                <p class="card__title">
-                                    <a href="#">Godmorgen Smoothie</a>
-                                </p>
-
-                            </div> <!-- /.content -->
-
-                        </div> <!-- /.card-content -->
-
-                    </div> <!-- /.card -->
-
-                </article>
-
-            </div>
-
-        </section>
 
     </main>
 
