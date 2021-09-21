@@ -30,6 +30,17 @@
 
         <div class="topbar">
 
+            <div class="brand">
+
+                <div class="brand__logo">
+
+                    <a href="#"><img src="/images/logo/logo-dark.svg"/></a>
+
+                </div>
+
+            </div> <!-- /.brand -->
+
+
             <div class="nav-toggle">
 
                 <span class="material-icons">
@@ -38,60 +49,39 @@
 
             </div>
 
-            <div class="brand">
+            <div class="search-form">
 
-                <div class="brand__logo">
+                <span class="material-icons">
+                    search
+                </span>
 
-                    <a href="#"> <img src="/images/logo/logo-dark.svg"> </a>
-
-                </div>
-
-            </div> <!-- /.brand -->
-
-            <nav class="main_menu">
-                <a class="main_menu__link" href="#">Opskrifter</a>
-                <a class="main_menu__link" href="#">Madplaner</a>
-                <a class="main_menu__link" href="#">Kontakt</a>
-
-                <div class="search-form">
-
-                    <span class="material-icons">
-                        search
-                    </span>
-
-                    Søg
-
-                </div>
-
-            </nav>
+            </div>
         
         </div> <!-- /.topbar -->
 
-        <div class="hero">
-
-            <div class="brand-text">
-
-                Hej! Vi er Madframor.
-                <br/>
-                Vi er en blog, hvor mor
-                <br />
-                deler ud af sine opskrifter.
-
-                <div class="arrow">
-                    <span class="material-icons bounce">
-                        arrow_downward
-                    </span>
-                </div>
-
-            </div>
-
-            <div class="hero-image">
-                <img src="/images/hero-chef.svg">
-            </div>
-
-        </div> <!-- /.hero -->
-
     </header>
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand__logo">
+
+                <a href="#">M</a>
+
+            </div>
+
+        </div> <!-- /.brand -->
+
+        <nav class="main_menu">
+
+            <a class="main_menu__link" href="#">Kontakt</a>
+            <a class="main_menu__link" href="#">Madplaner</a>
+            <a class="main_menu__link" href="#">Opskrifter</a>
+
+        </nav>
+
+    </aside>
 
     <main class="main width">    
 
@@ -101,7 +91,6 @@
                 <h2 class="heading">Anbefalet</h2>
                 <h3 class="sub-heading">Vores udvalgte til dig</h3>
             </div>
-
 
             <article class="article">
 
@@ -146,6 +135,16 @@
 
         </section>
 
+
+        <nav class="category_menu">
+
+            <a href="#" class="category_menu__link">Aftensmad</a>
+            <a href="#" class="category_menu__link">Bagværk</a>
+            <a href="#" class="category_menu__link">Frokost</a>
+            <a href="#" class="category_menu__link">Morgenmad</a>
+            <a href="#" class="category_menu__link">Tilbehør</a>
+
+        </nav>
 
         <section class="articles section trending">
 
