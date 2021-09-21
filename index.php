@@ -40,15 +40,6 @@
 
             </div> <!-- /.brand -->
 
-
-            <div class="nav-toggle">
-
-                <span class="material-icons">
-                    menu
-                </span>
-
-            </div>
-
             <div class="search-form">
 
                 <span class="material-icons">
@@ -80,6 +71,14 @@
             <a class="main_menu__link" href="#">Opskrifter</a>
 
         </nav>
+
+        <div class="nav-toggle">
+
+            <span class="material-icons">
+                menu
+            </span>
+
+        </div>
 
     </aside>
 
@@ -136,7 +135,7 @@
         </section>
 
 
-        <nav class="category_menu">
+        <nav class="category_menu" data-simplebar>
 
             <a href="#" class="category_menu__link">Aftensmad</a>
             <a href="#" class="category_menu__link">Bagværk</a>
