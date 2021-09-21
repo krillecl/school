@@ -81,7 +81,7 @@ a {
 }
 
 .section__headline {
-    padding: 4rem 0;
+    padding: 2.5rem 0;
 }
 
 .sidebar {
@@ -90,6 +90,8 @@ a {
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
     background-color: var(--green);
 }
 
@@ -127,7 +129,6 @@ aside .brand {
     color: black;
     font-size: 3rem;
     line-height: 1.5;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +191,7 @@ aside .brand {
 ***********************/
 
 .brand {
-    flex: 1;
+
 }
 
 .brand__logo {
@@ -206,20 +207,21 @@ aside .brand {
 ***********************/
 
 .main_menu {
-    height: 100%;
-    flex: 1;
+    width: 100px;
     display: flex;
     align-items: center;
-    transform: rotate(-90deg);
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;;
 }
 
 .main_menu__link {
-
+    transform: rotate(-90deg);
 }
 
 .main_menu__link,
 .search-form {
-    height: 100%;
+    height: 100px;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
@@ -236,6 +238,7 @@ aside .brand {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5.5rem;
 }
 
 .category_menu__link {
@@ -292,6 +295,7 @@ aside .brand {
     flex-direction: column;
     align-items: center;
     background-color: #f5f5f5;
+    margin-left: 100px;
 }
 
 .footer__copyright {
@@ -314,18 +318,12 @@ aside .brand {
 
 @media screen and (max-width: 1100px) {
 
-    .nav-toggle {
-        display: flex;
-        cursor: pointer;
-        flex: 1;
-    }
-
     .nav-toggle span {
         font-size: 2rem;
     }
 
     .main_menu {
-        display: none;
+       
     }
 
     .brand__logo {
@@ -335,6 +333,10 @@ aside .brand {
 
     .brand__logo img {
         height: 18px;
+    }
+
+    .category_menu__link:nth-child(1n+2) {
+        margin-left: 2rem;
     }
 
 }
@@ -387,6 +389,35 @@ aside .brand {
 
     .arrow {
         display: none;
+    }
+
+    .header {
+        margin-left: 0;
+        display: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100px;
+        padding: 0 5%;
+        flex-direction: row;
+        z-index: 50;
+    }
+
+    .main_menu {
+        flex-direction: row;
+    }
+
+    .main_menu__link{
+        transform: rotate(0);
+    }
+
+    .main {
+        margin-left: 0;
+    }
+
+    .nav-toggle {
+        display: none!important;
     }
 
 }
