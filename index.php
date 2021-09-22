@@ -17,6 +17,9 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/utilities.css">
@@ -40,14 +43,6 @@
 
             </div> <!-- /.brand -->
 
-            <div class="search-form">
-
-                <span class="material-icons">
-                    search
-                </span>
-
-            </div>
-        
         </div> <!-- /.topbar -->
 
     </header>
@@ -82,14 +77,9 @@
 
     </aside>
 
-    <main class="main width">    
+    <main class="main">    
 
         <section class="featured">
-
-            <div class="section__headline">
-                <h2 class="heading">Anbefalet</h2>
-                <h3 class="sub-heading">Vores udvalgte til dig</h3>
-            </div>
 
             <article class="article">
 
@@ -121,7 +111,6 @@
                                 <p class="card__time">14. September, 2021</p>
                             </div> <!-- /.trivia -->
 
-                            <div class="readmore"><a href="#">Læs opskriften</a></div>
 
                         </div> <!-- /.content -->
 
@@ -500,6 +489,9 @@
         </nav>
 
     </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
     
 </body>
 </html>

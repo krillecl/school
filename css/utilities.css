@@ -13,20 +13,17 @@
 ***********************/
 
 .featured {
+    padding: 0 5%;
     margin-bottom: 8rem;
 }
 
 .featured .article {
     width: 100%;
     margin: 0;
-    padding: 2rem;
-    background-color: #f5f5f5;
-    border: 1px solid #e5e5e5;
 }
 
 .featured .article .card {
-    display: flex;
-    flex-direction: row;
+    position: relative;
 }
 
 .featured .card-image {
@@ -35,12 +32,16 @@
 
 .featured .card__title {
     font-size: 2.5rem;
-    color: black;
+    color: white;
 }
 
 .card__description {
-    color: black;
+    color: white;
     margin: 0.5rem 0;
+}
+
+.featured .card-image {
+    position: relative;
 }
 
 .featured .card-image img {
@@ -53,6 +54,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgb(35,37,38);
+    background: linear-gradient(0deg, rgba(35,37,38,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .featured .readmore {
@@ -116,6 +122,10 @@
     display: flex;
 }
 
+.featured .card__trivia {
+    color: white;
+}
+
 .card__category a {
     font-weight: 600;
     padding-right: 0.25rem;
@@ -136,6 +146,11 @@
     font-size: 0.85rem;
     font-weight: 600;
     color: #5e697e;
+}
+
+.featured .card__category a,
+.featured .card__time {
+    color: white;
 }
 
 .nav-toggle {
